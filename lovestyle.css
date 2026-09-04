@@ -1,0 +1,87 @@
+*{
+    font-family: vazirmatn;
+}
+
+@font-face {
+    font-family: vazirmatn;
+    src: url(./Vazirmatn-Regular.ttf);
+}
+
+body{
+    background-image: url("bc.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.titr{
+    width: 50%;
+    color: pink;
+    position: relative;
+    background-color: papayawhip;
+    text-align: center;
+    letter-spacing: 20px;
+    margin: 20px;
+    padding: 100px;
+    border-radius: 20px;
+    border: pink double 50px;
+    margin: 20px auto;
+}
+nav ul{
+    letter-spacing: normal;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(201, 153, 161);
+    list-style: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+#ilutxt{
+    font-size: 20px;
+}
+nav a{
+    color: rgb(201, 153, 161) ;
+}
+.letter{
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 100px 40px 20px 40px;
+    background-color: papayawhip;
+    padding: 30px;
+    border-radius: 30px;
+    border: pink ridge 20px;
+}
+
+.lbut1{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center ;
+    background-color: papayawhip;
+    border-radius: 20px;
+    border: rgb(171, 143, 148) 5px solid;
+}
+.lbut2{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center ;
+    background-color: papayawhip;
+    border-radius: 20px;
+    border: rgb(171, 143, 148) 5px solid;
+}
+
+h2{
+    color: palevioletred;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: 700px;
+
+}
